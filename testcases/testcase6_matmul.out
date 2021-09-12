@@ -1,0 +1,155 @@
+FIRST CONFIGURATION
+------------------------
+
+CACHE CONFIGURATION
+size = 256 KB
+associativity = 1-way
+cache line size = 256 B
+write hit policy = write_through
+write miss policy = no-write-allocate
+cache hit time = 5 CLK
+cache miss penalty = 100 CLK
+memory address width = 32 bits
+
+ONE MEMORY ACCESS AT A TIME for 500 times
+===========================
+TAG ARRAY
+BLOCK 0
+  index        tag
+      0     0x8
+      1     0x4
+      2     0x8
+      4     0x8
+      6     0x8
+      8     0x8
+     10     0x8
+     12     0x8
+     14     0x8
+     16     0x8
+     18     0x8
+     20     0x8
+     22     0x8
+     24     0x8
+     26     0x8
+     28     0x8
+     30     0x8
+     32     0x8
+     34     0x8
+     36     0x8
+     38     0x8
+     40     0x8
+     42     0x8
+     44     0x8
+     46     0x8
+     48     0x8
+     50     0x8
+     52     0x8
+     54     0x8
+     56     0x8
+     58     0x8
+     60     0x8
+     62     0x8
+     64     0x8
+     66     0x8
+     68     0x8
+     70     0x8
+     72     0x8
+     74     0x8
+     76     0x8
+     78     0x8
+     80     0x8
+     82     0x8
+     84     0x8
+     86     0x8
+     88     0x8
+     90     0x8
+     92     0x8
+     94     0x8
+     96     0x8
+     98     0x8
+    100     0x8
+    102     0x8
+    104     0x8
+    106     0x8
+    108     0x8
+    110     0x8
+    112     0x8
+    114     0x8
+    116     0x8
+    118     0x8
+    120     0x8
+    122     0x8
+    124     0x8
+    126     0x8
+    128     0x8
+    130     0x8
+    132     0x8
+    134     0x8
+    136     0x8
+    138     0x8
+    140     0x8
+    142     0x8
+    144     0x8
+    146     0x8
+    148     0x8
+    150     0x8
+    152     0x8
+    154     0x8
+    156     0x8
+    158     0x8
+    160     0x8
+    162     0x8
+    164     0x8
+    166     0x8
+    168     0x8
+    170     0x8
+    172     0x8
+    174     0x8
+    176     0x8
+    178     0x8
+    180     0x8
+    182     0x8
+    184     0x8
+    186     0x8
+    188     0x8
+    190     0x8
+    192     0x8
+    194     0x8
+    196     0x8
+    198     0x8
+    200     0x8
+    202     0x8
+    204     0x8
+    206     0x8
+    208     0x8
+    210     0x8
+    212     0x8
+    214     0x8
+    216     0x8
+    218     0x8
+    220     0x8
+    222     0x8
+    224     0x8
+    226     0x8
+    228     0x8
+    230     0x8
+    232     0x8
+    234     0x8
+    236     0x8
+    238     0x8
+    240     0x8
+    242     0x8
+    244     0x8
+    246     0x8
+    248     0x8
+
+STATISTICS
+memory access = 500
+read = 375
+read misses = 253
+write = 125
+write misses = 0
+evictions = 127
+memory writes = 125
+average memory access time = 55.6
+
